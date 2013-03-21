@@ -192,7 +192,7 @@ last = (text) -> text.char-at (text.length - 1)
 # Returns a new `String` with all but the last character.
 #
 # :: String -> String
-but-last = (text) -> string.slice 0, -1
+but-last = (text) -> text.slice 0, -1
 
 
 #### λ take
