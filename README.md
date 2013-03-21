@@ -1,6 +1,4 @@
-# Lingerie
-
-[![Build Status](https://travis-ci.org/killdream/lingerie.png)](https://travis-ci.org/killdream/lingerie)
+# Lingerie [![Build Status](https://travis-ci.org/killdream/lingerie.png)](https://travis-ci.org/killdream/lingerie)
 
 Sexy and fashionable string manipulation in JavaScript.
 
@@ -15,7 +13,17 @@ platforms by the use of shims. Just include [es5-shim][] :3
 
 ### Example
 
-( ... )
+```js
+var l = require('lingerie')
+
+l.isEmpty('foo')
+// => (Boolean) false
+
+// Most functions are curried though, so take advantage of it:
+var fooStuff = l.startsWith('foo')
+fooStuff('fooBar')
+// => (Boolean) true
+```
 
 
 ### Installing
