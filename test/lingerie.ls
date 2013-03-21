@@ -1,7 +1,7 @@
 # -- Dependencies ------------------------------------------------------
 assert = require 'assert'
 claire = require 'claire'
-l      = require '../'
+l      = require '../lib'
 
 # -- Aliases -----------------------------------------------------------
 o         = it
