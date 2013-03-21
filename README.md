@@ -2,6 +2,16 @@
 
 Sexy and fashionable string manipulation in JavaScript.
 
+This modules provides basic services for manipulating and interacting with
+strings in JavaScript:
+
+  - Building strings (cycling/concatenating).
+  - Trimming whitespace.
+  - Common predicates (starts with?, ends with?, empty?)
+  - Declarative slicing (first, rest, ...)
+
+Oh, everything is curried for great goodness!
+
 
 ### Platform support
 
