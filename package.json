@@ -1,6 +1,6 @@
 {
   "name": "lingerie",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Sexy and fashionable string manipulation in JavaScript.",
   "main": "./lib/index.js",
   "devDependencies": {
