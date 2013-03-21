@@ -1,1 +1,1 @@
-require('../../lib-test')
+require('../../lib-test/lingerie')
