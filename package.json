@@ -39,30 +39,16 @@
   "testling": {
     "files": "test/browser/suite.js",
     "preprocess": "npm run-script pretest-browser",
-    "browsers": {
-      "ie": [
-        8,
-        9,
-        10
-      ],
-      "firefox": [
-        15,
-        "nightly"
-      ],
-      "chrome": [
-        21,
-        22,
-        "canary"
-      ],
-      "opera": [
-        10,
-        12,
-        "next"
-      ],
-      "safari": [
-        5.1
-      ]
-    },
+    "browsers": [
+      "ie/6..latest",
+      "chrome/25..latest",
+      "firefox/20..latest",
+      "opera/11.0..latest",
+      "safari/latest",
+      "iphone/latest",
+      "ipad/latest",
+      "android-browser/latest"
+    ],
     "harness": "mocha"
   }
 }
